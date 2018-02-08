@@ -11,3 +11,4 @@ services:
       - "3000:3000"
     depends_on:
       - db
+    image: ziggy/dockerrailstutorial_web
