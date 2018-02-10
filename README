@@ -1,6 +1,0 @@
-Using directions from https://docs.docker.com/compose/rails/#define-the-project mashed up with https://www.railstutorial.org/book/toy_app
-
-run the following to create the initial containers:
-$ docker-compose run web rails _5.1.4_ new toy_app --force --database=postgresql
-
-First, Compose builds the image for the web service using the Dockerfile. Then it runs rails new inside a new container, using that image. Once it’s done, you should have generated a fresh app.
