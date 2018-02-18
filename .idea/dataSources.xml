@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails docker-rails-tutorial: test" uuid="44769be9-5081-4050-980f-1ebb80a66fe0">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://db/myapp_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails docker-rails-tutorial: development" uuid="978ab1c1-0f72-44a0-a802-4cddb6007764">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://db/myapp_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails docker-rails-tutorial: production" uuid="68cbe3eb-52ce-4398-84eb-8222b605dc76">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://db/myapp_production</jdbc-url>
+    </data-source>
+  </component>
+</project>
