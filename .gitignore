@@ -17,3 +17,7 @@
 /yarn-error.log
 
 .byebug_history
+
+# Ignore IDEA local configs
+.idea/dataSources.local.xml
+.idea/workspace.xml
